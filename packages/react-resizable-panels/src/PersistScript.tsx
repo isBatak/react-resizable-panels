@@ -5,14 +5,12 @@ import { MINIFIED_PERSIST } from "./scripts/persist.minified";
 import { useIsSSR } from "./hooks/useIsSSR";
 
 export interface PersistScriptProps {
-  autoSaveId: string | null;
   storageKeyPrefix?: string;
   nonce?: string;
 }
 
 export const PersistScript = ({
   nonce,
-  autoSaveId,
   storageKeyPrefix = DEFAULT_STORAGE_KEY_PREFIX,
 }: PersistScriptProps) => {
   const isSSR = useIsSSR();
