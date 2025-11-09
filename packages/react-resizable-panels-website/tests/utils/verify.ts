@@ -2,7 +2,7 @@ import { expect, Page } from "@playwright/test";
 
 import { PanelGroupLayoutLogEntry } from "../../src/routes/examples/types";
 
-import { assert } from "react-resizable-panels";
+import { assert } from "@isbatak/react-resizable-panels";
 import { getLogEntries } from "./debug";
 
 export async function verifySizes(page: Page, ...expectedSizes: number[]) {

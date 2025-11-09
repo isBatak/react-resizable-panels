@@ -5,7 +5,7 @@ import {
   PanelGroup,
   PanelProps,
   PanelResizeHandle,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 import { verifyAriaValues } from "./utils/aria";
 import { goToUrl } from "./utils/url";

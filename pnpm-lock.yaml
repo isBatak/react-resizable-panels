@@ -72,6 +72,9 @@ importers:
 
   examples/nextjs:
     dependencies:
+      '@isbatak/react-resizable-panels':
+        specifier: workspace:*
+        version: link:../../packages/react-resizable-panels
       next:
         specifier: 16.0.0
         version: 16.0.0(@playwright/test@1.37.0)(react-dom@19.2.0)(react@19.2.0)
@@ -81,9 +84,6 @@ importers:
       react-dom:
         specifier: 19.2.0
         version: 19.2.0(react@19.2.0)
-      react-resizable-panels:
-        specifier: workspace:*
-        version: link:../../packages/react-resizable-panels
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
@@ -172,6 +172,9 @@ importers:
       '@codemirror/state':
         specifier: latest
         version: 6.4.0
+      '@isbatak/react-resizable-panels':
+        specifier: '*'
+        version: link:../react-resizable-panels
       '@lezer/highlight':
         specifier: latest
         version: 1.2.0
@@ -190,9 +193,6 @@ importers:
       react-dom:
         specifier: experimental
         version: 0.0.0-experimental-247738465-20240130(react@0.0.0-experimental-247738465-20240130)
-      react-resizable-panels:
-        specifier: '*'
-        version: link:../react-resizable-panels
       react-router-dom:
         specifier: latest
         version: 6.21.3(react-dom@0.0.0-experimental-247738465-20240130)(react@0.0.0-experimental-247738465-20240130)

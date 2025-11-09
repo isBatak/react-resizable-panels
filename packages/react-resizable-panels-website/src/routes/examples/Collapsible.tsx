@@ -4,7 +4,7 @@ import {
   PanelGroup,
   PanelResizeHandle,
   assert,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 import {
   TUTORIAL_CODE_CSS,
   TUTORIAL_CODE_HTML,

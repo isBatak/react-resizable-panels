@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Panel, PanelGroup } from "react-resizable-panels";
+import { Panel, PanelGroup } from "@isbatak/react-resizable-panels";
 
 import { ResizeHandle } from "../../components/ResizeHandle";
 

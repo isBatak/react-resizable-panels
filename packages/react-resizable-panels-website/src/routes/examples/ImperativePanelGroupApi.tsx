@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import type { ImperativePanelGroupHandle } from "react-resizable-panels";
-import { Panel, PanelGroup } from "react-resizable-panels";
+import type { ImperativePanelGroupHandle } from "@isbatak/react-resizable-panels";
+import { Panel, PanelGroup } from "@isbatak/react-resizable-panels";
 
 import { ResizeHandle } from "../../components/ResizeHandle";
 
@@ -111,7 +111,7 @@ import {
   Panel,
   PanelGroup,
   PanelResizeHandle,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 const ref = useRef<ImperativePanelGroupHandle>(null);
 

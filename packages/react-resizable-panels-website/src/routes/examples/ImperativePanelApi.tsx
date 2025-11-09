@@ -3,7 +3,7 @@ import {
   ImperativePanelHandle,
   Panel,
   PanelGroup,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 import Icon from "../../components/Icon";
 
 import { ResizeHandle } from "../../components/ResizeHandle";
@@ -285,7 +285,7 @@ import {
   Panel,
   PanelGroup,
   PanelResizeHandle,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 const ref = useRef<ImperativePanelHandle>(null);
 

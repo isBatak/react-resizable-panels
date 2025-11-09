@@ -12,7 +12,7 @@ import {
   ImperativePanelGroupHandle,
   ImperativePanelHandle,
   assert,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 import {
   assertImperativePanelGroupHandle,
   assertImperativePanelHandle,

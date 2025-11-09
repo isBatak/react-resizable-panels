@@ -4,7 +4,7 @@ import {
   assert,
   getIntersectingRectangle,
   intersects,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 import { getBodyCursorStyle } from "./cursor";
 import { verifyFuzzySizes } from "./verify";
 

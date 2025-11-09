@@ -1,4 +1,4 @@
-import { assert } from "react-resizable-panels";
+import { assert } from "@isbatak/react-resizable-panels";
 
 export const Targets = {
   bottomLeft: "bottomLeft",

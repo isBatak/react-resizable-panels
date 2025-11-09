@@ -1,6 +1,10 @@
 import { expect, Page, test } from "@playwright/test";
 import { createElement } from "react";
-import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
+import {
+  Panel,
+  PanelGroup,
+  PanelResizeHandle,
+} from "@isbatak/react-resizable-panels";
 import { getBodyCursorStyle } from "./utils/cursor";
 import { dragResizeIntersecting, dragResizeTo } from "./utils/panels";
 

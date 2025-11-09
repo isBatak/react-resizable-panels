@@ -26,7 +26,7 @@
     "match-sorter": "latest",
     "react": "experimental",
     "react-dom": "experimental",
-    "react-resizable-panels": "*",
+    "@isbatak/react-resizable-panels": "*",
     "react-router-dom": "latest",
     "react-virtualized-auto-sizer": "^1.0.10",
     "sort-by": "latest",

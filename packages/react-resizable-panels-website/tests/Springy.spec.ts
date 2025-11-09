@@ -1,6 +1,10 @@
 import { Page, test } from "@playwright/test";
 import { createElement } from "react";
-import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
+import {
+  Panel,
+  PanelGroup,
+  PanelResizeHandle,
+} from "@isbatak/react-resizable-panels";
 
 import { dragResizeTo } from "./utils/panels";
 import { goToUrl } from "./utils/url";

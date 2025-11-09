@@ -1,8 +1,8 @@
-import { assert } from "react-resizable-panels";
+import { assert } from "@isbatak/react-resizable-panels";
 import {
   ImperativePanelGroupHandle,
   ImperativePanelHandle,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 export function assertImperativePanelHandle(
   value: any

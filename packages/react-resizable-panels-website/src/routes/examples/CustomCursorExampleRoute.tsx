@@ -3,7 +3,7 @@ import {
   customizeGlobalCursorStyles,
   Panel,
   PanelGroup,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 import { ResizeHandle } from "../../components/ResizeHandle";
 
@@ -58,7 +58,7 @@ function Content() {
 }
 
 const CODE = `
-import { customizeGlobalCursorStyles, type CustomCursorStyleConfig } from "react-resizable-panels";
+import { customizeGlobalCursorStyles, type CustomCursorStyleConfig } from "@isbatak/react-resizable-panels";
 
 function Example() {
   useLayoutEffect(() => {

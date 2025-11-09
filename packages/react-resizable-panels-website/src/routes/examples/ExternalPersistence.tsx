@@ -1,5 +1,9 @@
 import { useMemo } from "react";
-import { Panel, PanelGroup, PanelGroupStorage } from "react-resizable-panels";
+import {
+  Panel,
+  PanelGroup,
+  PanelGroupStorage,
+} from "@isbatak/react-resizable-panels";
 import { useNavigate } from "react-router-dom";
 
 import { ResizeHandle } from "../../components/ResizeHandle";

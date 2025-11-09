@@ -24,7 +24,7 @@ export type SerializedPanelGroupState = {
   [panelIds: string]: PanelSerializedConfigurationState;
 };
 
-export const DEFAULT_STORAGE_KEY_PREFIX = "react-resizable-panels";
+export const DEFAULT_STORAGE_KEY_PREFIX = "@isbatak/react-resizable-panels";
 
 export function getPanelGroupKey(
   autoSaveId: string,

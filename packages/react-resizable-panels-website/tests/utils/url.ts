@@ -1,6 +1,6 @@
 import { Page } from "@playwright/test";
 import { ReactElement } from "react";
-import { PanelGroupProps } from "react-resizable-panels";
+import { PanelGroupProps } from "@isbatak/react-resizable-panels";
 import { UrlPanelGroupToEncodedString } from "../../src/utils/UrlData";
 
 export async function goToUrl(

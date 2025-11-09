@@ -1,6 +1,10 @@
 "use client";
 
-import { Panel, PanelGroup, PanelPersistScript } from "react-resizable-panels";
+import {
+  Panel,
+  PanelGroup,
+  PanelPersistScript,
+} from "@isbatak/react-resizable-panels";
 import { ResizeHandle } from "@/components/ResizeHandle";
 import styles from "@/components/shared.module.css";
 

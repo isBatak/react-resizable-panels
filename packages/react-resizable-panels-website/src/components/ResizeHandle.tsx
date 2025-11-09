@@ -2,7 +2,7 @@ import {
   PanelResizeHandle,
   PanelResizeHandleProps,
   usePanelGroupContext,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 import styles from "./ResizeHandle.module.css";
 import Icon from "./Icon";

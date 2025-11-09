@@ -5,7 +5,7 @@ import {
   Panel,
   PanelGroup,
   PanelResizeHandle,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 import { goToUrl, goToUrlWithIframe } from "./utils/url";
 import assert from "assert";

@@ -3,7 +3,7 @@
 React components for resizable panel groups/layouts
 
 ```jsx
-import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
+import { Panel, PanelGroup, PanelResizeHandle } from "@isbatak/react-resizable-panels";
 
 <PanelGroup autoSaveId="example" direction="horizontal">
   <Panel defaultSize={25}>
@@ -143,7 +143,7 @@ import {
   Panel,
   PanelGroup,
   PanelResizeHandle,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 export function Example() {
   const refs = useRef();
@@ -205,7 +205,7 @@ The `PanelPersistScript` component synchronously applies the persisted layout be
 ```tsx
 "use client";
 
-import { Panel, PanelGroup, PanelResizeHandle, PanelPersistScript } from "react-resizable-panels";
+import { Panel, PanelGroup, PanelResizeHandle, PanelPersistScript } from "@isbatak/react-resizable-panels";
 
 export function ClientComponent() {
   return (
@@ -254,7 +254,7 @@ export function ServerComponent() {
 ```tsx
 "use client";
 
-import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
+import { Panel, PanelGroup, PanelResizeHandle } from "@isbatak/react-resizable-panels";
 
 export function ClientComponent({
   defaultLayout = [33, 67],
@@ -283,7 +283,7 @@ A demo of this is available [here](https://github.com/bvaughn/react-resizable-pa
 #### How can I set the [CSP `"nonce"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/nonce) attribute?
 
 ```js
-import { setNonce } from "react-resizable-panels";
+import { setNonce } from "@isbatak/react-resizable-panels";
 
 setNonce("your-nonce-value-here");
 ```
@@ -291,7 +291,7 @@ setNonce("your-nonce-value-here");
 #### How can I disable global cursor styles?
 
 ```js
-import { disableGlobalCursorStyles } from "react-resizable-panels";
+import { disableGlobalCursorStyles } from "@isbatak/react-resizable-panels";
 
 disableGlobalCursorStyles();
 ```
@@ -299,7 +299,7 @@ disableGlobalCursorStyles();
 #### How can I override the global cursor styles?
 
 ```js
-import { customizeGlobalCursorStyles, type CustomCursorStyleConfig } from "react-resizable-panels";
+import { customizeGlobalCursorStyles, type CustomCursorStyleConfig } from "@isbatak/react-resizable-panels";
 
 function customCursor({ isPointerDown }: CustomCursorStyleConfig) {
   return isPointerDown ? "grabbing" : "grab";

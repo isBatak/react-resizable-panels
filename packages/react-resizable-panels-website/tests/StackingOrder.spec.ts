@@ -5,7 +5,7 @@ import {
   PanelGroup,
   PanelResizeHandle,
   assert,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 
 import { goToUrl } from "./utils/url";
 import { getBodyCursorStyle } from "./utils/cursor";

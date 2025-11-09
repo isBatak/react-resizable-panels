@@ -20,7 +20,7 @@ import {
   PanelResizeHandle,
   PanelResizeHandleOnDragging,
   PanelResizeHandleProps,
-} from "react-resizable-panels";
+} from "@isbatak/react-resizable-panels";
 import { ImperativeDebugLogHandle } from "../routes/examples/DebugLog";
 
 type UrlPanel = {

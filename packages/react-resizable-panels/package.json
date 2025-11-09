@@ -1,13 +1,13 @@
 {
-  "name": "react-resizable-panels",
-  "version": "3.0.6",
+  "name": "@isbatak/react-resizable-panels",
+  "version": "3.1.0-beta.0",
   "type": "module",
   "description": "React components for resizable panel groups/layouts",
-  "author": "Brian Vaughn <brian.david.vaughn@gmail.com>",
+  "author": "Brian Vaughn <brian.david.vaughn@gmail.com>, Ivica Batinić <ivicabatinic123@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bvaughn/react-resizable-panels.git"
+    "url": "git+https://github.com/isBatak/react-resizable-panels.git"
   },
   "source": "src/index.ts",
   "files": [
@@ -18,21 +18,21 @@
   ],
   "exports": {
     ".": {
-      "types": "./dist/react-resizable-panels.js",
+      "types": "./dist/isbatak-react-resizable-panels.js",
       "development": {
-        "edge-light": "./dist/react-resizable-panels.development.edge-light.js",
-        "worker": "./dist/react-resizable-panels.development.edge-light.js",
-        "workerd": "./dist/react-resizable-panels.development.edge-light.js",
-        "browser": "./dist/react-resizable-panels.browser.development.js",
-        "node": "./dist/react-resizable-panels.development.edge-light.js",
-        "default": "./dist/react-resizable-panels.development.js"
+        "edge-light": "./dist/isbatak-react-resizable-panels.development.edge-light.js",
+        "worker": "./dist/isbatak-react-resizable-panels.development.edge-light.js",
+        "workerd": "./dist/isbatak-react-resizable-panels.development.edge-light.js",
+        "browser": "./dist/isbatak-react-resizable-panels.browser.development.js",
+        "node": "./dist/isbatak-react-resizable-panels.development.edge-light.js",
+        "default": "./dist/isbatak-react-resizable-panels.development.js"
       },
-      "edge-light": "./dist/react-resizable-panels.edge-light.js",
-      "worker": "./dist/react-resizable-panels.edge-light.js",
-      "workerd": "./dist/react-resizable-panels.edge-light.js",
-      "browser": "./dist/react-resizable-panels.browser.js",
-      "node": "./dist/react-resizable-panels.edge-light.js",
-      "default": "./dist/react-resizable-panels.js"
+      "edge-light": "./dist/isbatak-react-resizable-panels.edge-light.js",
+      "worker": "./dist/isbatak-react-resizable-panels.edge-light.js",
+      "workerd": "./dist/isbatak-react-resizable-panels.edge-light.js",
+      "browser": "./dist/isbatak-react-resizable-panels.browser.js",
+      "node": "./dist/isbatak-react-resizable-panels.edge-light.js",
+      "default": "./dist/isbatak-react-resizable-panels.js"
     },
     "./package.json": "./package.json"
   },
@@ -50,7 +50,7 @@
       "default": "./src/env-conditions/check-is-browser.ts"
     }
   },
-  "types": "dist/react-resizable-panels.d.ts",
+  "types": "dist/isbatak-react-resizable-panels.d.ts",
   "scripts": {
     "clear": "pnpm run clear:builds & pnpm run clear:node_modules",
     "clear:builds": "rm -rf ./packages/*/dist",

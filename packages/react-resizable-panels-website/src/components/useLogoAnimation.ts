@@ -1,5 +1,5 @@
 import { RefObject, useEffect } from "react";
-import { assert } from "react-resizable-panels";
+import { assert } from "@isbatak/react-resizable-panels";
 import { Sequence, Target } from "./LogoAnimation";
 
 export function useLogoAnimation(
