@@ -1,6 +1,6 @@
 {
   "name": "@isbatak/react-resizable-panels",
-  "version": "3.1.0-beta.0",
+  "version": "3.1.0-beta.1",
   "type": "module",
   "description": "React components for resizable panel groups/layouts",
   "author": "Brian Vaughn <brian.david.vaughn@gmail.com>, Ivica Batinić <ivicabatinic123@gmail.com>",
